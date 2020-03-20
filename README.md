@@ -10,7 +10,8 @@ If your workspace is on Slack’s Standard plan, you can use Slack API to export
 
 1. Script runs on python(specifically python 3).
 2. You need to get your user token with below scope and update token.txt with your token.
-![alt text] (https://github.com/aaskan/Slack-Export/blob/master/ReadMeAsset/userscope.png)
+
+![Alt text] (https://github.com/aaskan/Slack-Export/blob/master/ReadMeAsset/userscope.png)
 
 ## Usage
 
