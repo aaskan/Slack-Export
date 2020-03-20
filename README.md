@@ -1,4 +1,4 @@
-# Slack Converstation History Export
+# Slack Conversation History Export
 
 ## Description
 
