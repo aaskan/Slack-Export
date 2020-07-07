@@ -31,7 +31,7 @@ python3 slack_export.py all
 ```
 
 You can also export
-- only direct messages by running ``` python slack_export.py im ```
-- only group direct messages by running ``` python slack_export.py mpim ```
-- only private channels by running ``` python slack_export.py private_channel ```
-- only public channels by running ``` python slack_export.py public_channel ```
+- only direct messages by running ``` python3 slack_export.py im ```
+- only group direct messages by running ``` python3 slack_export.py mpim ```
+- only private channels by running ``` python3 slack_export.py private_channel ```
+- only public channels by running ``` python3 slack_export.py public_channel ```
