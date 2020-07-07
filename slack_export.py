@@ -9,7 +9,8 @@ if not os.path.exists(OUTPUT):
     os.makedirs(OUTPUT)
 
 f = open("token.txt", "r")
-token = f.read()
+# Remove any leading or trailing space characters (Including new lines) from the token
+token = f.read().strip()
 available_types = ['im', 'mpim', 'private_channel', 'public_channel', 'all']
 requested_type = sys.argv[1]
 assert requested_type in available_types, 'Type is not right. Please choose one of the {}'.format(available_types)
